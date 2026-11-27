@@ -6,7 +6,7 @@ echo ============================================
 echo   Push "bus-flow-agent" to GitHub
 echo ============================================
 echo.
-echo Repo: https://github.com/169-chen/------
+echo Repo: https://github.com/169-chen/bus-flow-agent
 echo.
 echo No need to type anything. Just wait for the login window.
 echo.
@@ -16,7 +16,7 @@ git branch -M main
 
 echo [2/3] Setting remote...
 git remote remove origin 2>nul
-git remote add origin https://github.com/169-chen/------.git
+git remote add origin https://github.com/169-chen/bus-flow-agent.git
 
 echo.
 echo [3/3] Pushing code... A login window may pop up.
