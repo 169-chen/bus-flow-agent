@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 环境与密钥
+.env
+*.key
+
+# 数据与报告中的临时文件
+*.downloading
+*.zip
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
