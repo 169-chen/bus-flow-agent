@@ -6,12 +6,9 @@ echo ============================================
 echo   Push "bus-flow-agent" to GitHub
 echo ============================================
 echo.
-set /p REPO_URL="Paste the repo URL from browser address bar, then press Enter: "
-set "REPO_URL=%REPO_URL: =%"
-if "%REPO_URL:~-1%"=="/" set "REPO_URL=%REPO_URL:~0,-1%"
-if /i not "%REPO_URL:~-4%"==".git" set "REPO_URL=%REPO_URL%.git"
+echo Repo: https://github.com/169-chen/------
 echo.
-echo Remote address: %REPO_URL%
+echo No need to type anything. Just wait for the login window.
 echo.
 
 echo [1/3] Switching branch to main...
@@ -19,12 +16,12 @@ git branch -M main
 
 echo [2/3] Setting remote...
 git remote remove origin 2>nul
-git remote add origin %REPO_URL%
+git remote add origin https://github.com/169-chen/------.git
 
 echo.
 echo [3/3] Pushing code... A login window may pop up.
 echo.
-echo   If asked for Username:  type 169-chen
+echo   If asked for Username:  type  169-chen
 echo   If asked for Password:  paste your Personal Access Token
 echo                           (starts with ghp_, NOT your account password)
 echo.
